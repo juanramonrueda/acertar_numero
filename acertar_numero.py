@@ -4,7 +4,7 @@ print("Programa para jugar a acertar el número\n")
 #Importación de la biblioteca / módulo para generar variables pseudo-aleatorias
 import random
 
-#Importación de la biblioteca /módulo para realizar paradas momentaneas
+#Importación de la biblioteca / módulo para realizar paradas momentaneas
 import time
 
 #Importación de la biblioteca / módulo para poder realizar limpiezas de terminal
