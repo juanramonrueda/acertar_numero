@@ -66,7 +66,7 @@ def aleatorio_personalizado():
         aleatorio_generado = int(random.randint(primer_rango, segundo_rango))
     else:
         aleatorio_generado = int(random.randint(segundo_rango, primer_rango))
-    numero = int(-999999999999999999999999999999999) #Provoco que entre al bucle con un número improvable
+    numero = int(-999999999999999999999999999999999) #Provoco que entre al bucle con un número improbable
     while numero != aleatorio_generado:
         numero = int(input("Introduzca un número\n"))
         if numero < aleatorio_generado:
